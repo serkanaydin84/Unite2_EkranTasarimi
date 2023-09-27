@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, SS64Activity.class);
         startActivity(i);
     }
+
+    public void ss65Goster(View view) {
+        Intent i = new Intent(MainActivity.this, SS65Activity.class);
+        startActivity(i);
+    }
 }
